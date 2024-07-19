@@ -4,24 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "61f7d834852f255a",
-        "type": "tabs",
-        "dimension": 32.694475760992106,
-        "children": [
-          {
-            "id": "bc16b67a6d2d2887",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "1a15b5aa49ee1429",
         "type": "tabs",
-        "dimension": 67.3055242390079,
         "children": [
           {
             "id": "e5e45e2248acbec4",
@@ -29,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Source Materials/Git version control.md",
+                "file": "6 - ZettleKasten/Restful APIs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Source Materials/Git version control.md",
+                "file": "6 - ZettleKasten/Restful APIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Source Materials/Git version control.md",
+                "file": "6 - ZettleKasten/Restful APIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Source Materials/Git version control.md"
+                "file": "6 - ZettleKasten/Restful APIs.md"
               }
             }
           }
@@ -165,14 +149,14 @@
   },
   "active": "e5e45e2248acbec4",
   "lastOpenFiles": [
+    "6 - ZettleKasten/Redux.md",
+    "6 - ZettleKasten/React Router.md",
+    "6 - ZettleKasten/React Context API.md",
+    "6 - ZettleKasten/Lifecyclemethods.md",
+    "6 - ZettleKasten/JSX.md",
+    "6 - ZettleKasten/Hooks for functional components.md",
     "6 - ZettleKasten/Fundamentals of React.js.md",
     "2 - Source Materials/Git version control.md",
-    "6 - ZettleKasten/React Context API.md",
-    "6 - ZettleKasten/Hooks for functional components.md",
-    "6 - ZettleKasten/JSX.md",
-    "6 - ZettleKasten/Lifecyclemethods.md",
-    "6 - ZettleKasten/React Router.md",
-    "6 - ZettleKasten/Redux.md",
     "6 - ZettleKasten/Restful APIs.md",
     "5 - Templates/javascript.md",
     "5 - Templates/Full Note.md",
