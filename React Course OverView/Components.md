@@ -17,7 +17,7 @@
     - Stateless by default, though hooks can be used to manage state and side effects.
     - Ideal for presentational components and when no internal state or lifecycle methods are needed.
 
-**2. Class Components**
+**2. Class Components** {***are not so widely used, can be ignored for now.}
 
 - **Definition**: ES6 classes that extend `React.Component` and require a `render()` method.
 - **Syntax**:
@@ -130,7 +130,7 @@
 ### **Summary**
 
 - **Functional Components**: Simple, stateless, use hooks for state and lifecycle.
-- **Class Components**: Can manage state and use lifecycle methods, more complex.
+- **Class Components not very important repeating again. **: Can manage state and use lifecycle methods, more complex.
 - **Props**: Read-only data passed to components.
 - **State**: Mutable data managed within a component.
 - **Lifecycle Methods**: Special methods to hook into different phases of a component’s lifecycle.
