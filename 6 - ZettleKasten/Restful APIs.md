@@ -1,7 +1,7 @@
 
 2024-07-19 15:29
 
-status:
+status: 
 
 Tags:
 
@@ -18,11 +18,7 @@ Tags:
 - **Using Fetch API**:
     
     - Built-in browser API for making HTTP requests.
-    - Example:
-        
-        javascript
-        
-        Copy code
+    - Example: 
         
         `fetch('https://api.example.com/data')   .then(response => response.json())   .then(data => {     // handle data   })   .catch(error => console.error('Error fetching data:', error));`
         
@@ -30,11 +26,7 @@ Tags:
     
     - Third-party library for making HTTP requests.
     - Benefits include interceptors, request cancellation, etc.
-    - Example:
-        
-        javascript
-        
-        Copy code
+    - Example: 
         
         `import axios from 'axios';  axios.get('https://api.example.com/data')   .then(response => {     // handle data   })   .catch(error => console.error('Error fetching data:', error));`
         
@@ -48,11 +40,7 @@ Tags:
 - **Loading States**:
     
     - Display loading indicators while fetching data.
-    - Example:
-        
-        javascript
-        
-        Copy code
+    - Example: 
         
         `const [data, setData] = useState(null); const [loading, setLoading] = useState(true);  useEffect(() => {   axios.get('https://api.example.com/data')     .then(response => {       setData(response.data);       setLoading(false);     })     .catch(error => console.error('Error fetching data:', error)); }, []);`
         
@@ -61,11 +49,7 @@ Tags:
 
 - **Handling Errors**:
     - Implement error handling for failed API requests.
-    - Example:
-        
-        javascript
-        
-        Copy code
+    - Example: 
         
         `const [error, setError] = useState(null);  useEffect(() => {   axios.get('https://api.example.com/data')     .then(response => {       setData(response.data);       setLoading(false);     })     .catch(error => {       console.error('Error fetching data:', error);       setError(error);       setLoading(false);     }); }, []);`
         

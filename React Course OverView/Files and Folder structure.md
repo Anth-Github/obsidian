@@ -1,14 +1,8 @@
 When working with React.js, organizing your files and folders is crucial for maintaining a scalable and manageable project. Here’s a detailed guide on how to structure files and folders in a React project:
-
 ### **Common File and Folder Structure**
 
 A typical React project might have the following structure:
 
-perl
-
-Copy code
-
-	
 ```bash
  my-app/
 ├── node_modules/         # Dependencies installed by npm or yarn
@@ -31,8 +25,6 @@ Copy code
 └── README.md              # Project documentation
 ```
 
-
- 
 ### **Folder Descriptions**
 
 **1. `public/`**

@@ -1,10 +1,8 @@
 
-
 **1. What are Components?**
 
-- **Definition**: Components are the building blocks of a React application. They encapsulate a part of the user interface (UI) and manage its logic and state.
+- **Definition**: Components are the building blocks of a React application. They encapsulate a part of the user interface (UI) and manage its ***logic and state.***
 - **Purpose**: They allow you to split the UI into reusable, manageable pieces, making development more modular and maintainable.
-
 ### **Types of Components**
 
 **1. Functional Components**
@@ -34,44 +32,30 @@
 
 - **Definition**: Read-only data passed from a parent component to a child component.
 - **Usage**: Used to configure and customize components.
-- **Example**:
-    
-    jsx
-    
-    Copy code
-    
+- **Example**: 
     `<Greeting name="John" />`
     
     In `Greeting` component:
+        `function Greeting(props) {   return <h1>Hello, {props.name}!</h1>; }`
     
-    jsx
-    
-    Copy code
-    
-    `function Greeting(props) {   return <h1>Hello, {props.name}!</h1>; }`
-    
-
 **2. State**
 
 - **Definition**: Mutable data managed within a component.
 - **Usage**: Allows a component to maintain its own data and re-render when the state changes.
-- **Functional Components**: Use the `useState` hook.
-    
-    jsx
-    
-    Copy code
-    
-    `import React, { useState } from 'react';  function Counter() {   const [count, setCount] = useState(0);   return (     <div>       <p>Count: {count}</p>       <button onClick={() => setCount(count + 1)}>Increment</button>     </div>   ); }`
-    
-- **Class Components**: Use `this.state` and `this.setState()`.
-    
-    jsx
-    
-    Copy code
-    
-    `class Counter extends React.Component {   constructor(props) {     super(props);     this.state = { count: 0 };   }    increment = () => {     this.setState({ count: this.state.count + 1 });   };    render() {     return (       <div>         <p>Count: {this.state.count}</p>         <button onClick={this.increment}>Increment</button>       </div>     );   } }`
-    
+- **Functional Components**: Use the `useState` hook. 
 
+```javascript
+import React, { useState } from 'react';  
+function Counter() {   
+const [count, setCount] = useState(0);  
+return (     
+<div>       
+<p>Count: {count}</p>       
+<button onClick={() => setCount(count + 1)}>Increment</button>     
+</div>   ); 
+}
+```
+ 
 **3. Lifecycle Methods**
 
 - **Definition**: Special methods in class components that allow you to hook into different phases of a component's lifecycle.
@@ -79,53 +63,67 @@
     - `componentDidMount()`: Called after the component is mounted.
     - `componentDidUpdate(prevProps, prevState)`: Called after the component updates.
     - `componentWillUnmount()`: Called before the component is removed from the DOM.
-- **Functional Components**: Use the `useEffect` hook to handle lifecycle events.
-    
-    jsx
-    
-    Copy code
-    
-    `import React, { useEffect } from 'react';  function MyComponent() {   useEffect(() => {     // Code to run on mount     return () => {       // Cleanup code     };   }, []); // Empty dependency array means this runs on mount and unmount    return <div>My Component</div>; }`
-    
+- **Functional Components**: Use the `useEffect` hook to handle lifecycle events. 
 
+```javascript
+import React, { useEffect } from 'react';  
+function MyComponent() {   
+useEffect(() => {     // Code to run on mount     
+return () => {       // Cleanup code     
+};   }, []); 
+return 
+<div>My Component</div>; 
+}
+```
+     
 **4. JSX (JavaScript XML)**
 
 - **Definition**: A syntax extension for JavaScript that looks similar to HTML and is used to describe the UI structure.
 - **Usage**: Allows you to write HTML elements and components in a JavaScript file.
-- **Example**:
-    
-    jsx
-    
-    Copy code
-    
-    `function App() {   return (     <div>       <h1>Hello, World!</h1>       <p>Welcome to React.</p>     </div>   ); }`
-    
+- **Example**: 
 
+```javascript
+function App() {   
+return (     
+<div>       
+<h1>Hello, World!</h1>       
+<p>Welcome to React.</p>     
+</div>  
+); 
+}
+```
+    
 **5. Conditional Rendering**
 
 - **Definition**: Rendering different UI elements based on certain conditions.
 - **Usage**: Use conditional statements inside JSX to render different components or elements.
-- **Example**:
-    
-    jsx
-    
-    Copy code
-    
-    `function Welcome(props) {   if (props.isLoggedIn) {     return <UserProfile />;   } else {     return <Login />;   } }`
-    
 
+**Example**: 
+
+```javascript
+function Welcome(props) {   
+if (props.isLoggedIn) 
+{     return <UserProfile />;   } 
+else 
+{     return <Login />;   } 
+}
+```
+    
 **6. Lists and Keys**
 
 - **Definition**: Rendering lists of items and using keys to identify elements.
 - **Usage**: Helps in rendering arrays of data and keeping track of items.
-- **Example**:
-    
-    jsx
-    
-    Copy code
-    
-    `function ItemList(props) {   return (     <ul>       {props.items.map(item => (         <li key={item.id}>{item.name}</li>       ))}     </ul>   ); }`
-    
+**Example**: 
+
+```javascript
+function ItemList(props) {   
+return (     
+<ul>       {props.items.map(item => (         
+			<li key={item.id}>{item.name}</li>       
+			))}    
+ </ul>   ); 
+ }
+```
 
 ### **Summary**
 
