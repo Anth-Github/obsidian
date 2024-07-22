@@ -12,11 +12,11 @@ ref:  https://www.youtube.com/watch?v=b9eMGE7QtTk
 2. Pre-requisites [[Javascript Fundamentals]] 
    [[Essentails React.js concepts]] 
    [[Amazing project Ideas]] 
-{He is saying all these contents are mentioned in the road map or guide doc, we can go through the contents there. }
+	{He is saying all these contents are mentioned in the road map or guide doc, we can go through the contents there. }
 
 3. Components: [[Components]]
 
-4. There are two main ways of setting u;p your React environment. 
+4. There are two main ways of setting up your React environment. 
    - Manually setting up all the things using webpack and babel. 
    - using the [[create-react-app ]]command. 
 
@@ -39,6 +39,12 @@ this is going to run our applicatioin in local host 3000.
 
 
 #React
+
+
+
+
+
+
 
 
 
