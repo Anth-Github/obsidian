@@ -92,5 +92,3 @@ In this example, the `.map()` method is used to create a list of `<li>` elements
 ### Conclusion
 
 The `.map()` function is a versatile and essential method for working with arrays in JavaScript. It allows for elegant and concise transformations of array elements and is particularly useful in functional programming and libraries like React.js. Understanding and effectively using `.map()` can significantly improve your ability to manipulate and transform data in JavaScript.
-
-4o

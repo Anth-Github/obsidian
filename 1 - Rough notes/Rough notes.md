@@ -1,0 +1,57 @@
+****
+
+***Monday*** ^7a575d
+
+##Scribble 
+Always surf the udemy for best contents. set up a time line.  for it. 
+How to approach a react project. 
+Join a course after you join the work. understand the job role. 
+pick any online course immediately.
+
+save the code(use the github)
+
+Improve your react skills 0 to hero.  create notes. 
+
+Prepare yourself on react interview questions. go through advance react interviews, see what they are expecting. 
+
+Work on a react intermediate project. 
+think of it more like safety and security. 
+
+Learn more about the obsidian, create a notes about Obsidian. 
+
+
+
+
+Intermediate project, Learn the entire thing. 
+Or the Next js Project. 
+
+How to approach a react project problem. 
+Course content, 
+Project overview and prerequisites
+Locally set up full stack application
+what is cloud computing
+Aws overview and core services
+Setup PostgreSQL on the cloud
+deploy fastAPI on the cloud
+setup ci/cd
+configure domains & SSL
+Deploy React. 
+
+hasn't shown the project yet. 
+
+
+
+asks to watch all the video. 
+follow along. 
+use multiple tabs to open the same video, use them as reference. 
+
+create a Free aws account. 
+use the Hdfc bank and credit card to check with the balance. to use the free tier. 
+
+
+Do I really AWS cloud services to host my project?
+can I not host them in my Home lab of Linux distro.?
+
+
+
+C:\Users\Abel\Desktop\Git-folder\obsidian>
