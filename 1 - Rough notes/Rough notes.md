@@ -1,6 +1,6 @@
 ****
 
-***Monday*** ^7a575d
+***Monday*** 
 
 ##Scribble 
 Always surf the udemy for best contents. set up a time line.  for it. 
@@ -53,5 +53,5 @@ Do I really AWS cloud services to host my project?
 can I not host them in my Home lab of Linux distro.?
 
 
+I have the Code sandbox account. 
 
-C:\Users\Abel\Desktop\Git-folder\obsidian>

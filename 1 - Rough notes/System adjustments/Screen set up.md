@@ -9,3 +9,5 @@ chrome on the corner left.
 git on the top left. 
 VS code on the top right. 
 use the pin tab for the rest. 
+
+file explorer as a pin tab(smaller)
