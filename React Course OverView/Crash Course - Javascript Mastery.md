@@ -13,7 +13,7 @@ ref:  https://www.youtube.com/watch?v=b9eMGE7QtTk
 2. Pre-requisites [[JavaScript Fundamentals]] 
    [[Essentails React.js concepts]] 
    [[Amazing project Ideas]] 
-{He is saying all these contents are mentioned in the road map or guide doc, we can go through the contents there. }
+	{He is saying all these contents are mentioned in the road map or guide doc, we can go through the contents there. }
 
 3. Components: [[Components]]
 
@@ -41,6 +41,12 @@ this is going to run our applicatioin in local host 3000.
 
 
 #React
+
+
+
+
+
+
 
 
 

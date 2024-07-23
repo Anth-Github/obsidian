@@ -1,5 +1,5 @@
 
-[[Arrow functions,]] introduced in ES6 (ECMAScript 2015), provide a more concise syntax for writing functions in JavaScript. They are particularly beneficial in React.js for several reasons. 
+[[Arrow functions,]] introduced in ES6 (ECMAScript 2015), provide a more concise syntax for writing functions in JavaScript. They are particularly beneficial in React.js for several reasons.  ^f8cca3
 
 [[Ternary operators]] The ternary operator in JavaScript is a concise way to perform conditional operations. It is also known as the conditional operator. The ternary operator takes three operands, hence the name "ternary."
 
