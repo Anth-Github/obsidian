@@ -87,6 +87,7 @@ git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
 
 # Check the status of your repository
+C:\Users\jeric\OneDrive\Desktop\DevOps\obsidian>git status
 git status
 
 # Stage all changes
