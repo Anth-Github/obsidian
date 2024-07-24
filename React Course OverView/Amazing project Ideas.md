@@ -85,123 +85,128 @@ Creating Schemas
 4. Add dummy data to test the schema.
 
 Front end: we will be using react.js(Technically next.js)
+  
+Step 1: Set up the project
 
-   1. Use the pages folder and index.js file within the api folder in pages folder. 
-   2. Delete all the contents of index.js file(just keep one div tag - or you can delete the entire thing and keep this content.
+- Use the pages folder and index.js file within the api folder
+- Delete the contents of index.js and add a single div tag
+- Use the ES7+ React/Redux/React-Native extension for VS Code (RAFCE)
 
+Example:
 
-   Use ES7+ React/Redux/React-Native extension for VS code. (RAFCE)
-
-   ```javascript
 import React from 'react';
 const index = () => {
-return (
-<div>index</div>
-)
+  return (
+    <div>index</div>
+  )
 }
-
 export default index
-```
 
 
-    run npm run dev from next js ecommerce folder to see the project running. 
+Step 2: Set up the babel file and ESLint
 
-    start using the VScode and the browser side by side to see the changes.
+- Create a .babelrc file in the root directory
+- Add the @babel/preset-react preset to the .babelrc file(import syntax of react js is needed. )
+- Install the @babel/preset-react package using npm
+- Create an eslintrc.json file in the root directory
 
-   3. Set up the babel file within the styles folder also the [[eslintrc.json]]. 
-   4. going back to the Index.js file, rename the index.js file to home. 
+Step 3: Rename the index.js file to Home.js
 
-   Example:      
-```javascript
+- Rename the index.js file to Home.js
+- Update the contents of Home.js to include the Head component and styles from Home.module.css
+
+Example:
+
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-
 export default function Home() {
-  return ( 
+  return (
     <>
       HeroBanner
       <div>
-      <h2>Best selling products</h2>
-      <p>speakers of many variations</p>
+        <h2>Best selling products</h2>
+        <p>speakers of many variations</p>
       </div>
-
       <div>
-      ['product 1', 'product 2'].map((product) =>              product)
+        ['product 1', 'product 2'].map((product) => product)
       </div>
       Footer
-   </> 
+    </>
   );
 }
-```
 
 
-   5. Working on the styles, go to the folder named [[styles]]. you will find two folders [[globals.css]] and [[Home.modules.css]] Home is component name.
-   6. Getting into app,js now and checking if the styles class names are inherited or not. 
-   7. setting up the project with component names. 
-	   1. new components folder and creating component files within it.  also creating ==index==.js as an Additional component. with the index file, we are exporting all the other components HERE within this file. Just like below. 
+Step 4: Set up the styles
 
-export {dafault as Footer } from './Footer';
-export {dafault as Layout } from './Layout';
-export {dafault as Navbar } from './Navbar';
-export {dafault as Product } from './Product';
-export {dafault as HeroBanner } from './HeroBanner';
-export {dafault as FooterBanner } from './FooterBanner';
+- Go to the styles folder and find the globals.css and Home.module.css files
+- Update the Home.module.css file to include styles for the Home component
 
-go to babel rc and add the react preset, 
-		"@babel/preset-react",
-	also install this, npm install --save-dev @babel/[[preset-react]]
+Step 5: Set up the components
 
-and go under package.json, under devdependencies, make sure it is added. 
+- Create a new components folder and add component files within it
+- Create an index.js file in the components folder to export all the components
+- Add the following exports to the index.js file:
+    - Footer
+    - Layout
+    - Navbar
+    - Product
+    - HeroBanner
+    - FooterBanner
 
+Step 6: Set up the Sanity client
 
-now npm run dev. 
+- Create a new folder named LIB and add a file named client.js
+- Add the following contents to the client.js file:
 
-Building each components one by one, 
-starting with hero banner now, 
-
-
-starting with the outer div, classname, named it "hero-banner-container"
-
-into inner div. 
-specifying the contents within inner div. 
-Link is used within a separate div. Link needs to be imported. each time you use it. button is used. 
-
-connecting the component to Sanity to fetch the product details.
-
-creating one additional folder named "LIB", adding a new file within LIB, called client.js. contents of client.js are below. 
+Example:
 
 import sanityClient from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
-
 export const client = sanityClient({
-projectId: "",
-dataset: 
-apiversion:
-useCdn: true, 
-token: process.env.NEXT_PUBLIC_SANITY_TOKEN
+  projectId: "",
+  dataset: "",
+  apiVersion: "",
+  useCdn: true,
+  token: process.env.NEXT_PUBLIC_SANITY_TOKEN
 })
-
 const builder = imageUrlBuilder(client);
-
 export const urlFor = (source) => builder.image(source);
 
-cd into sanity/ecommerce folder now. now run sanity manage.
 
-right inside the project folder ecommerce create a .env file and save the below env key. 
-NEXT_PUBLIC_SANITY_TOKEN
+Step 7: Connect to Sanity
 
+- Go to the sanity/ecommerce folder and run sanity manage
+- Create a .env file in the root directory and add the NEXT_PUBLIC_SANITY_TOKEN env key
+- Import the client from ../lib/client in the Home.js file
+- Add the getServerSideProps function to the Home.js file to fetch data from Sanity
 
-Now go back to Index.js and import 
-import { client } from '../lib/client';
+**format the content from here.** 
+ 
+Step 8: Implementing each components one at a time. 
 
+- outer div gets the class name "hero-banner-container"
+- creating template and dummy text to display dynamic value
+- create all the links needed.
+- connect the application with sanity. 
+- create a folder named lib, add a new file named client.js and add the contents, this you need to do only once in your project and can reuse it multiple times. 
+- go back to index.js and import the client file from lib folder. 
+- In next js to fetch data use getServerSideprops. 
 
-in the end of Index.js file, write, 
-export const getServerSideProps = async() => {
-// code to get the data asynchronously from CMS and return it to the home page. goes here. 
+export const getServerSideProps = async () => {
+const query = to get all the products from sanity. 
+get products, use one more query for banner. 
+and get the banner details. 
+
+return {
+props: {products, banner}
+}
 }
 
 
+Step 8: second component build up.
 
+- 
+- point
 
 
 
