@@ -126,7 +126,7 @@ export default function Home() {
       </div>
 
       <div>
-      ['product 1', 'product 2'].map((product) => product)
+      ['product 1', 'product 2'].map((product) =>              product)
       </div>
       Footer
    </> 
@@ -135,7 +135,70 @@ export default function Home() {
 ```
 
 
-   5. Working on the styles, go to the folder named [[styles]]. you will find two folders globals.css and Home.modules. 
+   5. Working on the styles, go to the folder named [[styles]]. you will find two folders [[globals.css]] and [[Home.modules.css]] Home is component name.
+   6. Getting into app,js now and checking if the styles class names are inherited or not. 
+   7. setting up the project with component names. 
+	   1. new components folder and creating component files within it.  also creating ==index==.js as an Additional component. with the index file, we are exporting all the other components HERE within this file. Just like below. 
+
+export {dafault as Footer } from './Footer';
+export {dafault as Layout } from './Layout';
+export {dafault as Navbar } from './Navbar';
+export {dafault as Product } from './Product';
+export {dafault as HeroBanner } from './HeroBanner';
+export {dafault as FooterBanner } from './FooterBanner';
+
+go to babel rc and add the react preset, 
+		"@babel/preset-react",
+	also install this, npm install --save-dev @babel/[[preset-react]]
+
+and go under package.json, under devdependencies, make sure it is added. 
+
+
+now npm run dev. 
+
+Building each components one by one, 
+starting with hero banner now, 
+
+
+starting with the outer div, classname, named it "hero-banner-container"
+
+into inner div. 
+specifying the contents within inner div. 
+Link is used within a separate div. Link needs to be imported. each time you use it. button is used. 
+
+connecting the component to Sanity to fetch the product details.
+
+creating one additional folder named "LIB", adding a new file within LIB, called client.js. contents of client.js are below. 
+
+import sanityClient from '@sanity/client';
+import imageUrlBuilder from '@sanity/image-url';
+
+export const client = sanityClient({
+projectId: "",
+dataset: 
+apiversion:
+useCdn: true, 
+token: process.env.NEXT_PUBLIC_SANITY_TOKEN
+})
+
+const builder = imageUrlBuilder(client);
+
+export const urlFor = (source) => builder.image(source);
+
+cd into sanity/ecommerce folder now. now run sanity manage.
+
+right inside the project folder ecommerce create a .env file and save the below env key. 
+NEXT_PUBLIC_SANITY_TOKEN
+
+
+Now go back to Index.js and import 
+import { client } from '../lib/client';
+
+
+in the end of Index.js file, write, 
+export const getServerSideProps = async() => {
+// code to get the data asynchronously from CMS and return it to the home page. goes here. 
+}
 
 
 
@@ -147,7 +210,6 @@ export default function Home() {
 
 
 
- 
 
 
 
@@ -155,38 +217,6 @@ export default function Home() {
 
 
 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
 
 
 

@@ -1,0 +1,6 @@
+- This file is for global CSS styles that you want to apply to your entire application.
+- Any styles you write in globals.css will be applied to all pages and components.
+- Use this file for:
+    - CSS resets or normalization
+    - Global typography, colors, and spacing
+    - Utility classes (e.g., text-center, mb-4)
