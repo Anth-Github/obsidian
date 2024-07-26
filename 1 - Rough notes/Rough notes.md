@@ -49,11 +49,7 @@ create a Free aws account.
 use the Hdfc bank and credit card to check with the balance. to use the free tier. 
 
 
-Do I really AWS cloud services to host my project?
-can I not host them in my Home lab of Linux distro.?
-
-
-I have the Code sandbox account. 
+ 
 
 
 
@@ -62,7 +58,7 @@ I have the Code sandbox account.
 
 Thursday ,
 
-1. stable diffusion image creation open source. 
+
 2. Description of Messi My First Image I want to see. 
 
 ==Imagine a dark blue background with a spotlight shining down on a football field. Lionel Messi is standing in the center, wearing his iconic Barcelona jersey and holding a football. The stadium lights are dimmed, but the stars in the sky are shining bright, reflecting your nocturnal nature. The image is captioned "Dreaming of the next goal..."==

@@ -28,28 +28,18 @@ Method: (e.g., GET, POST, PUT, DELETE)
     Screenshots of the request and response data (if necessary)
 
 
-
--Technologies used with these are, 
-
-
-
-**HTTP Clients:**  
-Axios, Fetch API: Libraries for web development to interact with APIs
-
-**Server-Side Languages:**  
-Node.js: JavaScript runtime for server-side development  
-Python: Programming language for server-side development
-
-**Frameworks:**  
-Express.js: Node.js framework for building server-side applications
-
-**Relational Databases:**  
-MySQL: Relational database management system  
-PostgreSQL: Powerful, open-source relational database  
-SQL Server: Microsoft's relational database management system
-
-These notes summarize the key technologies used for HTTP clients, server-side languages, frameworks, and relational databases.
-
-
-
-If you learn any of these you can get a job as a back end developer in Bangalore.  Search for fresher jobs here. 
+I am interested only on: 
+	Method
+	status
+	protocol
+	scheme 
+	domain
+	remote address
+	initiator
+	size 
+	time
+	connection id
+	[[waterfall]]
+	
+	Let get into nginx.org
+	
