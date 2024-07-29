@@ -231,3 +231,6 @@ These styles will give your app a basic layout and design. You can always add or
 Save both files (`App.js` and `styles.css`) and check your app in the browser. You should see the styles applied to your Todo List app.
 
 Let me know if you need help with anything else!
+
+
+add gitignore. 
