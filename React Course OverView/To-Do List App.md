@@ -20,7 +20,7 @@ Task 3: Implement CRUD operations for tasks.
 Task 4: Implement task prioritization feature.  
 Task 5: Implement due dates feature.  
 Task 6: Implement reminders feature.  
-Task 7: Test and debug the app.  
+		Task 7: Test and debug the app.  
 Task 8: Deploy the app.
 
 Step 4: Research and Gather Information
