@@ -1,23 +1,18 @@
 {
   "main": {
-    "id": "eccbf9a0a3f6c6af",
+    "id": "551e0a59e34e0b31",
     "type": "split",
     "children": [
       {
-        "id": "1a15b5aa49ee1429",
+        "id": "9a662b9693778b62",
         "type": "tabs",
         "children": [
           {
-            "id": "e5e45e2248acbec4",
+            "id": "9b21ad9690d7324e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Rough notes/Git/Git file Synchronizing Local Changes with Git Repository.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -26,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9ff00d81157dab85",
+    "id": "2d0d3a59d3fe3964",
     "type": "split",
     "children": [
       {
-        "id": "35c91c48d83d15e2",
+        "id": "7ca4bc2f03c780c9",
         "type": "tabs",
         "children": [
           {
-            "id": "199b805592d3a0a1",
+            "id": "854937e655e438a5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +39,7 @@
             }
           },
           {
-            "id": "ff7b98bf3fe45e9a",
+            "id": "f4b275fc297e0768",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,7 +54,7 @@
             }
           },
           {
-            "id": "120efb9da9159a31",
+            "id": "5619827cbf3fe281",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -70,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 300
   },
   "right": {
-    "id": "f55cb4d965f80f64",
+    "id": "07a194e98771592b",
     "type": "split",
     "children": [
       {
-        "id": "f6153c1fe88c7d8a",
+        "id": "94b514e1dfb185d0",
         "type": "tabs",
         "children": [
           {
-            "id": "50f9837ba0158471",
+            "id": "bba0a742403506b0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Rough notes/Git/Git file Synchronizing Local Changes with Git Repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +92,18 @@
             }
           },
           {
-            "id": "c6eec82e380e19da",
+            "id": "f001ce4d526947ad",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Rough notes/Git/Git file Synchronizing Local Changes with Git Repository.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "43a66f217ee6ef38",
+            "id": "9287b7a5acca6a9a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,13 +114,11 @@
             }
           },
           {
-            "id": "ed00b3956bfa5126",
+            "id": "a3a096452ef5a442",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 - Rough notes/Git/Git file Synchronizing Local Changes with Git Repository.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,35 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5e45e2248acbec4",
-  "lastOpenFiles": [
-    "1 - Rough notes/Git/Git file upload commands..md",
-    "1 - Rough notes/Untitled.md",
-    "React Course OverView/To-Do List App.md",
-    "React Course OverView/Set up the project structure and install necessary dependencies..md",
-    "React Course OverView/projects.md",
-    "React Course OverView/Amazing project Ideas.md",
-    "6 - ZettleKasten/Restful APIs.md",
-    "6 - ZettleKasten/Redux.md",
-    "6 - ZettleKasten/React Router.md",
-    "6 - ZettleKasten/React Context API.md",
-    "6 - ZettleKasten/Lifecyclemethods.md",
-    "6 - ZettleKasten/JSX.md",
-    "6 - ZettleKasten/Hooks for functional components.md",
-    "6 - ZettleKasten/Fundamentals of React.js.md",
-    "2 - Source Materials/Git version control.md",
-    "5 - Templates/javascript.md",
-    "5 - Templates/Full Note.md",
-    "2 - Source Materials/confessions of a cartel hitman by martin corona.md",
-    "6 - ZettleKasten/r and k special  notes.md",
-    "1 - Rough notes/Dev Ops.md",
-    "1 - Rough notes/Interview preparations.md",
-    "6 - ZettleKasten",
-    "5 - Templates",
-    "4 - Indexes",
-    "3 - Tags",
-    "2 - Source Materials",
-    "Welcome.md",
-    "1 - Rough notes"
-  ]
+  "active": "9b21ad9690d7324e",
+  "lastOpenFiles": []
 }
