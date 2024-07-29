@@ -130,204 +130,195 @@ Note: The `.gitconfig` file is usually located in the user's home directory (e.g
 - More information: https://git-scm.com/docs/git-config
 
 
-#unformatted 
 
-whenver you need git documentation files for references, you can go to google and type "git config"
-you will get the details. 
 
-we can get the same details on the terminal by typing 
-git config --help, press space to go to the next page. and q to exit. 
+  
+Here are the notes rewritten for clarity and concision, with added explanations and references:
 
-git config -h for short summary. 
+**Git Commands**
 
-download the cheat sheet from the description of the youtube video. 
+- `git status -s`: Displays a short summary of the repository status, showing modified, staged, and untracked files.
+    
 
-git commit 
+**Initializing a Git Repository**
 
+1. Create a new directory for your project: `mkdir moon`
+    
+2. Navigate into the directory: `cd moon`
+    
+3. Initialize a new Git repository: `git init`
+    
 
-creating snapshots. 
-create a directory for your project. 
-mkdir moon. 
-cd moon. 
-git init. 
+**Basic Git Workflow**
 
-initialized empty git repository and the full path is shown. 
-by default an empty .git folder is created which you should not touch. it is hidded by default. 
-ls 
-ls -a
-shows the .git file which is hidden by default. 
+1. **Staging**: Add modified files to the staging area using `git add <file>` or `git add .` to stage all changes.
+    
+2. **Committing**: Create a snapshot of the staged changes using `git commit -m "<commit message>"`
+    
 
-windows install posh-git for colourful git front end. 
-post-git completely optiona; 
+**Staging Files**
 
-rm -rf .git. 
- removes the directory.  this deletes the git repo. 
+- `echo "hello" > file1.txt`: Creates a new file with the content "hello"
+    
+- `git add file1.txt`: Stages the new file
+    
+- `git status -s`: Shows the file as staged
+    
 
+**Committing Changes**
 
-git init. now that we have the repository. 
+- `git commit -m "Initial commit"`: Creates a new commit with the message "Initial commit"
+    
+- `git commit`: Opens a text editor to write a commit message
+    
 
-Basic, Git workflow: 
+**Commit Best Practices**
 
-creating a commit is taking a snapshot. 
+- Commit often (5-10 times a day)
+    
+- Each commit should represent a logical, separate change set
+    
+- Use present tense in commit messages (e.g., "Fix bug")
+    
+- Keep commits concise, but not too small or too big
+    
 
-staging area, add the modified files to staging area. permanently store in our repo. 
+**Skipping the Staging Area**
 
+- `git commit -am "Fix bug"`: Commits all changes without staging them first
+    
 
-unstash them if you dont want to upload. 
+**Removing Files**
 
+- `rm file2.txt`: Deletes the file
+    
+- `git status`: Shows the file as deleted
+    
+- `git add file2.txt`: Stages the deletion
+    
+- `git commit -m "Removed unused files"`: Commits the deletion
+    
 
+**Renaming or Moving Files**
 
-give me an real example here. 
+- `mv file1.txt main.js`: Renames the file
+    
+- `git status`: Shows the file as renamed
+    
+- `git add main.js`: Stages the rename
+    
+- `git mv main.js file1.js`: Renames the file using Git
+    
+- `git commit -m "Refactor code"`: Commits the rename
+    
 
-Tell me more about the staging command 
+**Git Ignore**
 
-git commit -m "staging message"
+- Create a `.gitignore` file in the root directory to ignore files or directories, with no filename just the extension
+    
+- `echo logs/ > .gitignore`: Ignores the `logs` directory
+    
+- `git add .gitignore`: Stages the `.gitignore` file
+    
+- `git commit -m "Add git ignore"`: Commits the `.gitignore` file
 
 
-Each commit gets an 
- ID
- Message
- Date/time
- Author
- complete Snapshot. 
+github/gitignore, you can have base templates for gitignore for different languages. 
 
-How git stores data, tell me more on this!
+Note: For more information on Git commands, you can use `git <command> --help` or visit the official Git documentation by searching for "git <command>" on Google.
 
-Staging files, 
-echo "standard unix or linux command"
+**Short Status**
 
-echo hello > file1.txt writing hell to file1 
-echo hello > file2.txt 
+- `git status -s`: Displays a short summary of the repository status, showing modified, staged, and untracked files.
+    
 
+**Viewing Changes**
 
-git status - summary give me an summary of this command here. 
-git add file1.txt file2.txt
-git add .  adds the entire directory. 
+- `git status`: Displays the status of the repository, including modified and untracked files.
+    
+- `git status -s`: Displays a short summary of the status.
+    
+- `git diff --staged`: Shows the changes between the staging area and the last commit.
+    
 
-git status - summary give me an summary of this command here. 
+**Visual Diff Tools**
 
-echo world >>(append) file1.txt
-git status to check the file status. 
+- `kdiff3`, `p4Merge`, and `winMerge` are tools for visually comparing file changes.
+    
 
-use the git status to track the files that have been changed or modified. 
+**Viewing History**
 
+- `git log`: Displays the commit history.
+    
+- `git log --oneline`: Displays a concise version of the commit history, showing only the commit message.
+    
+- `git log --oneline --reverse`: Displays the commit history in reverse order.
+    
+- `git show <commit_id>`: Displays the details of a specific commit.
+    
+- `git show HEAD~1`: Displays the details of the previous commit.
+    
+- `git ls-tree HEAD~1`: Displays the file tree of the previous commit.
+    
 
-when we used the add command git took the snapshot of that file, when we make new changes to the file these are not captured again. you need to restage the files again. 
+**Unstaging Files**
 
+- `git restore --staged <file>`: Unstages a file, moving it from the staging area to the working directory.
+    
 
-git add . 
-git add file1.txt 
+**Discarding Local Changes**
 
-commiting changes, 
-git commit -m "Initial commit"
-git commit 
+- `git restore <file>`: Discards local changes to a file, reverting it to the last committed version.
+    
+- `git clean`: Removes untracked files and directories.
+    
+**Restoring a File to an Earlier Version**:
 
+When working with Git, it's common to make changes to files and then realize you want to revert to a previous version. Git provides a way to restore a file to an earlier version using the `git restore` command.
 
-short and long description within  a commit message file. 
+**Syntax:**
 
+`git restore --source=<commit_id> <file>`
 
-commiting best practices. 
+**Explanation:**
 
-it shouldn't be too small or too big. 
-commit often, 
-5 to 10 times a day. 
-as you reach a state you want to record then make a commit. 
-fixing a bug, 
-each commit should represent a logical separate chain set .
-example, bug an typo and in two separate commits. 
+- `--source=<commit_id>`: Specifies the commit ID from which to restore the file. You can find the commit ID using `git log`.
+    
+- `<file>`: Specifies the file to restore.
+    
 
-make it mean something. 
-present tense in the meaning. fixed a bug. 
+**Example:**
 
-Skipping the staging area, 
-you dont have to stage your files all the time you need. 
+Suppose you've made changes to `file1.js` and want to restore it to the version from commit `d601b90`.
 
-echo test >> file1.txt
-git commit -am "fix the bug that prevented users from sigining up"
+1. Find the commit ID: `git log`
+    
+2. Copy the commit ID: `d601b90`
+    
+3. Run the restore command: `git restore --source=d601b90 file1.js`
+    
 
-commits all the files with -a flag without the need to add files to the staging. 
+This will restore `file1.js` to the version from commit `d601b90`, overwriting any local changes.
 
-removing files, 
+**Alternative:**
 
-rm file2.txt
+You can also use `git checkout` to restore a file to an earlier version:
 
-git status. 
+`git checkout <commit_id> -- <file>`
 
-we have one file removed. 
+This command is similar to `git restore`, but it checks out the file from the specified commit, whereas `git restore` restores the file from the specified commit.
 
-git ls-files, files that are still in the staging area. 
+**Important Notes:**
 
-git add file2.txt
+- `git restore` and `git checkout` will overwrite local changes. Make sure to commit or stash your changes before restoring a file.
+    
+- If you want to restore multiple files, separate them with spaces: `git restore --source=<commit_id> file1.js file2.js`
+    
 
-git ls-files
+By using `git restore` or `git checkout`, you can easily revert files to earlier versions, making it a powerful tool for managing changes in your Git repository.
 
-git status
-git commit -m "removed unused files"
+Video completed. 
 
-git rm file2.txt 
-
-
-renaming or moving files: 
-file1.txt. 
-
-mv file1.txt main.js
-git status. 
-
-
-git add file1.txt 
-git add main.js
-
-git status
-
-git mv main.js file1.js
-git status
-
-git commit -m "refactor code"
-
-git ignore, 
-echo hello > logs/dev.log
-
-create a file called .gitignore should be in the root of your extension, noname only extension. 
-
-echo logs/ > .gitignore
-
-git status
-git add .gitignore
-	git commit -m "addgit ignore"
-
-
-mkdir bin, contains compile source code. 
-echo hello > bin/app.bin. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-28:39
-
-
-
-
-
-Devops, 
 
 
 

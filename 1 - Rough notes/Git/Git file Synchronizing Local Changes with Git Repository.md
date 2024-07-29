@@ -55,7 +55,7 @@ Committing local changes before pulling updates from the remote repository will 
 ```bash
 # Check the status of your local repository
 
-#Exaple path, C:\Users\Abel\Desktop\Git-folder\obsidian
+D:\Anthony\Notes\obsidian>git push
 git status
 
 # Add your changes to the staging area

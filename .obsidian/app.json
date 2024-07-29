@@ -1,5 +1,7 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "6 - ZettleKasten",
-  "promptDelete": false
+  "promptDelete": false,
+  "showIndentGuide": false,
+  "readableLineLength": false
 }

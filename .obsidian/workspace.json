@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough notes/Visual Studio Code Editor/VS code.md",
+                "file": "1 - Rough notes/Git/Mosh-Hamedani Git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 285.5,
+    "collapsed": true
   },
   "right": {
     "id": "f55cb4d965f80f64",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Rough notes/Visual Studio Code Editor/VS code.md",
+                "file": "1 - Rough notes/Git/Mosh-Hamedani Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Rough notes/Visual Studio Code Editor/VS code.md",
+                "file": "1 - Rough notes/Git/Mosh-Hamedani Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Rough notes/Visual Studio Code Editor/VS code.md"
+                "file": "1 - Rough notes/Git/Mosh-Hamedani Git.md"
               }
             }
           }
@@ -149,20 +150,20 @@
   },
   "active": "e5e45e2248acbec4",
   "lastOpenFiles": [
-    "React Course OverView/Untitled.md",
+    "1 - Rough notes/Git/Git file Synchronizing Local Changes with Git Repository.md",
+    "1 - Rough notes/Git/Mosh-Hamedani Git.md",
     "1 - Rough notes/Visual Studio Code Editor/VS code.md",
+    "React Course OverView/Untitled.md",
     "6 - ZettleKasten/React Router.md",
     "6 - ZettleKasten/Redux.md",
     "6 - ZettleKasten/Restful APIs.md",
     "1 - Rough notes/Rough notes.md",
     "1 - Rough notes/Untitled.md",
-    "1 - Rough notes/Git/Mosh-Hamedani Git.md",
     "1 - Rough notes/Git/Git1.md",
     "1 - Rough notes/Git/Git 2.md",
     "2 - Source Materials/Git version control.md",
     "1 - Rough notes/Purchases,.md",
     "1 - Rough notes/Git/Git file upload commands..md",
-    "1 - Rough notes/Git/Git file Synchronizing Local Changes with Git Repository.md",
     "React Course OverView/Virtual DOM.md",
     "React Course OverView/UseEffect Hook.md",
     "React Course OverView/To do.md",
