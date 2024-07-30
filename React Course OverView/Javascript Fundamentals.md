@@ -10,3 +10,11 @@ functions of JavaScript arrays, .[[map]] .[[filter]] and [[reduce]]
 [[Async, Await]]
 
 [[Fetch]]
+
+
+
+https://www.youtube.com/watch?v=tKHdASf_OOI
+
+
+[[What's Coming Next to JavaScript by Nicolo Ribaudo]]
+

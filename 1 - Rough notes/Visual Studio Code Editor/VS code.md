@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=heXQnM99oAI&t=5547s
+
 
 its more than a text editor. intellisense. 
 aesthetics. 
@@ -121,6 +123,179 @@ search option 2(within the activity bar), search all the files within the projec
 
 option enter is ALT ENTER, always remember. (Multi cursor editing). 
 
+Go to section, 
+
+
+#starts from here
+
+Peek when you right click on function name, variable, or variable., Peeking at what definition looks like. 
+you can also edit that peek contents. changes are auto saved. 
+
+Go To, 
+
+GoTo Definition. 
+Find all references, on the side bar, all the places ou can click through. 
+
+right click and rename symbol to change the name. 
+right click, peek, Peek definition. definition of the inline. 
+
+you can even edit the code which is auto saved. 
+
+find and replace thing stuffs. 
+lot of powerful stuff's. 
+
+
+Refactoring. 
+
+He takes an example of airTablePost.
+
+renaming a function, control shift M to find all the uses of the function in the entire project. 
+
+
+right click Find all references, this also includes the comment, 
+right click, find all implementation, 
+	shows how the code has been defined. 
+
+Extensions and customization in VScode: 
+	prettier
+
+
+
+	less extensions you have the faster your VS code works. 
+	you can disable extensions and enable whenever you need them. 
+	
+control shift p for command pallete and type recommended extensions, you can recommend your extension with your team mates, when you share the code with your team mates, it automatically asks if they want to install the extensions recommended.
+
+
+settings syn, 
+use your github account to sync with the settings in each of your machine. 
+
+I have a question if I have two different accounts of VS code, I want to sync the settings from one to another. How to do it. ??
+check with meta.ai, it has better answer. 
+
+this settings synchronization also includes extensions as well. 
+
+snippets are a big part of VS code platform: 
+
+
+control shift p and insert snippet, 
+ opens up the snippet pallette, you can search for snippet files. 
+
+JavaScript (ES6) code snippets extension to install. 
+
+you can also use the search pallete to find the snippets. 
+control shift p and type imp or imd or ima and hit enter. 
+
+
+control shift p - configure user snippets. 
+New Global snippet file, 
+
+
+```javascript
+{
+
+ // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+
+ // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+
+ // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+
+ // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+
+ // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+
+ // Placeholders with the same ids are connected.
+
+ // Example:
+
+ "Print to console": {
+
+  "scope": "javascript,typescript",
+
+  "prefix": "log",
+
+  "body": [
+
+   "console.log('$1');",
+
+   "$2"
+
+  ],
+
+  "description": "Log output to console"
+
+ }
+
+}
+```
+
+[[Emmet]], use it on a daily basis. 
+create a cheat code. 
+
+refer this video, code faster with emmet.
+Faster coding with emmet. even css. 
+
+cheat sheet, such a big topic. 
+
+emmett simply means snippets. 
+
+command line interface, CLI, 
+adding vs code functionality to your terminal, 
+
+HTML/CSS Workflow, 
+built in features, 
+emmet, 
+code folding - clicking on the arrows, folds that particular code of block. 
+
+color picker 
+css class definition hovers, 
+
+settings,
+auto closing tags, 
+auto updating tags, linked editing, turn on. 
+linked editing, 
+wrap attributes, go to settings, find wrap attributes. go ahead and change that to force. 
+
+
+autoformatting, 
+autosaving, 
+
+
+HTML/CSS Extensions, 
+
+color highlight: icon for the color picker. search for color highlight install and enable. 
+check the html file for icon. 
+
+css peek:  extension used is css peek. pranaygp.vscode-css- pranay prakash
+on right clicking on the class name it should open up the style.css. 
+you can also peek the definition. editing also saves there and here. 
+
+HTML end tag labels: html end tag label extension install go back to html file, 
+
+click to get multi curson on a tag lets say a paragraph tag and then hit enter it will just show you with that. helps with debugging the code. 
+
+code spell check: code spell check extension used to highlight any text that is not spelled correctly. this highlighting is auto. you dont have to have anything. helpful when typing text. 
+
+
+HTML CSS support:  HTML CSS SUPPORT extension. 
+go to settings and find css stylesheets. opens up a window for edit in settings.json and there enter this cdn link within "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css
+" and you have all the tailwind classes in your intellisense. 
+
+intellisense with css classes. 
+
+
+2:20mins
+
+
+the Node and Npm workflow.
+
+
+extensions, 
+npm npm extension deprecated.  2:23mins.
+gitignore,
+npm intellisense
+version lens
+Import cost
 
 
 
@@ -138,8 +313,50 @@ option enter is ALT ENTER, always remember. (Multi cursor editing).
 
 
 
-current length 1:27mins, 
-Total 5:55mins.
+
+
+
+
+
+Keep the settings tab always open you know. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+current length 2:02hrs, 
+Total 5:55hrs.
 
 
 
