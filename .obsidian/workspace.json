@@ -4,18 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "1a15b5aa49ee1429",
+        "id": "d02642783990584b",
         "type": "tabs",
         "children": [
           {
-            "id": "e5e45e2248acbec4",
+            "id": "2f15c8955127cfc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough notes/Git/Mosh-Hamedani Git.md",
+                "file": "1 - Rough notes/Visual Studio Code Editor/VS code.md",
                 "mode": "source",
-                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d861c391fd25d309",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React Course OverView/To do.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55fe72ef68b6bbb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough notes/Node/Node.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -70,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
+    "width": 571.5124969482422,
     "collapsed": true
   },
   "right": {
@@ -87,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Rough notes/Git/Mosh-Hamedani Git.md",
+                "file": "1 - Rough notes/Visual Studio Code Editor/VS code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Rough notes/Git/Mosh-Hamedani Git.md",
+                "file": "1 - Rough notes/Visual Studio Code Editor/VS code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Rough notes/Git/Mosh-Hamedani Git.md"
+                "file": "1 - Rough notes/Visual Studio Code Editor/VS code.md"
               }
             }
           }
@@ -148,11 +171,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5e45e2248acbec4",
+  "active": "2f15c8955127cfc2",
   "lastOpenFiles": [
-    "1 - Rough notes/Git/Git file Synchronizing Local Changes with Git Repository.md",
-    "1 - Rough notes/Git/Mosh-Hamedani Git.md",
+    "React Course OverView/To do.md",
+    "1 - Rough notes/Node/Node.md",
     "1 - Rough notes/Visual Studio Code Editor/VS code.md",
+    "1 - Rough notes/Node",
+    "React Course OverView/To-Do List App.md",
+    "React Course OverView/styles.md",
+    "React Course OverView/State.md",
+    "React Course OverView/Set up the project structure and install necessary dependencies..md",
+    "React Course OverView/Essentails React.js concepts.md",
+    "React Course OverView/create-react-app.md",
+    "React Course OverView/Crash Course - Javascript Mastery.md",
+    "React Course OverView/Async, Await.md",
+    "React Course OverView/Arrow functions,.md",
+    "React Course OverView/Amazing project Ideas Javascript mastery.md",
+    "React Course OverView/Amazing project Ideas.md",
+    "1 - Rough notes/Kan Amma.md",
+    "1 - Rough notes/Visual Studio Code Editor/tabs in VScode..md",
+    "1 - Rough notes/Git/Mosh-Hamedani Git.md",
+    "1 - Rough notes/Git/Git file Synchronizing Local Changes with Git Repository.md",
     "React Course OverView/Untitled.md",
     "6 - ZettleKasten/React Router.md",
     "6 - ZettleKasten/Redux.md",
@@ -160,23 +199,7 @@
     "1 - Rough notes/Rough notes.md",
     "1 - Rough notes/Untitled.md",
     "1 - Rough notes/Git/Git1.md",
-    "1 - Rough notes/Git/Git 2.md",
-    "2 - Source Materials/Git version control.md",
-    "1 - Rough notes/Purchases,.md",
-    "1 - Rough notes/Git/Git file upload commands..md",
-    "React Course OverView/Virtual DOM.md",
-    "React Course OverView/UseEffect Hook.md",
-    "React Course OverView/To do.md",
-    "React Course OverView/Podcast.md",
     "1 - Rough notes/Visual Studio Code Editor",
-    "1 - Rough notes/System adjustments/Visual studio code editor.md",
-    "React Course OverView/To-Do List App.md",
-    "React Course OverView/Set up the project structure and install necessary dependencies..md",
-    "React Course OverView/projects.md",
-    "React Course OverView/Amazing project Ideas.md",
-    "6 - ZettleKasten/React Context API.md",
-    "6 - ZettleKasten/Lifecyclemethods.md",
-    "6 - ZettleKasten/JSX.md",
     "6 - ZettleKasten",
     "5 - Templates",
     "4 - Indexes",
